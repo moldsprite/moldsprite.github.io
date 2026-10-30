@@ -1,5 +1,5 @@
 ---
-title: My New Note
+title: meowing
 ---
 
 Hello! Here's a link to [[Meow]] 🐱

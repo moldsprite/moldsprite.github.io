@@ -1,5 +1,5 @@
 ---
-title: About da catto
+title: About the cat
 ---
 
 This is a meower situation.

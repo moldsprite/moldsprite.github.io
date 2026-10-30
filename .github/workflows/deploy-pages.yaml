@@ -28,7 +28,7 @@ jobs:
       - run: npm ci
       - run: npx quartz plugin install
       - run: npx quartz build
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v4
         with:
           path: public
 
