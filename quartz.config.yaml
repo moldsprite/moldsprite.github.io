@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
   pageTitle: a cat's digital garden
-  pageTitleSuffix: ""
+  pageTitleSuffix: "meow"
   enableSPA: true
   enablePopovers: true
   analytics:
