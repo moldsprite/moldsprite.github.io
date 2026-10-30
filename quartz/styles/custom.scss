@@ -4,3 +4,14 @@
 .explorer.collapsed {
   flex: 0 0 2.5rem !important;
 }
+.page-title a::before {
+  content: "";
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.3em;
+  vertical-align: -0.1em;
+  background-color: currentColor;
+  mask: url("https://api.iconify.design/solar:cat-broken.svg") no-repeat center / contain;
+  -webkit-mask: url("https://api.iconify.design/solar:cat-broken.svg") no-repeat center / contain;
+}
