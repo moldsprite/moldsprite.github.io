@@ -4,14 +4,27 @@
 .explorer.collapsed {
   flex: 0 0 2.5rem !important;
 }
-.page-title a::before {
+.page-title::before {
   content: "";
   display: inline-block;
-  width: 1em;
-  height: 1em;
+  width: 1.4rem;
+  height: 1.8rem;
   margin-right: 0.3em;
-  vertical-align: -0.1em;
+  vertical-align: baseline;
+  position: relative;
+  top: 0.3rem;
   background-color: currentColor;
-  mask: url("https://api.iconify.design/solar:cat-broken.svg") no-repeat center / contain;
-  -webkit-mask: url("https://api.iconify.design/solar:cat-broken.svg") no-repeat center / contain;
+  mask: url("https://api.iconify.design/solar/cat-bold.svg") no-repeat center / contain;
+  -webkit-mask: url("https://api.iconify.design/solar/cat-bold.svg") no-repeat center / contain;
+}
+.explorer .folder-title::before {
+  content: "";
+  display: inline-block;
+  width: 1.1em;
+  height: 1.1em;
+  margin-right: 0.4em;
+  vertical-align: -0.15em;
+  background-color: currentColor;
+  mask: url("https://api.iconify.design/solar/folder-linear.svg") no-repeat center / contain;
+  -webkit-mask: url("https://api.iconify.design/solar/folder-linear.svg") no-repeat center / contain;
 }
