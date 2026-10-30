@@ -10,12 +10,10 @@
   width: 1.4rem;
   height: 1.8rem;
   margin-right: 0.3em;
-  vertical-align: baseline;
-  position: relative;
-  top: 0.3rem;
-  background-color: currentColor;
-  mask: url("https://api.iconify.design/solar/cat-bold.svg") no-repeat center / contain;
-  -webkit-mask: url("https://api.iconify.design/solar/cat-bold.svg") no-repeat center / contain;
+  background-image: url("/assets/cat-bold.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 .explorer .folder-title::before {
   content: "";
@@ -23,8 +21,8 @@
   width: 1.1em;
   height: 1.1em;
   margin-right: 0.4em;
-  vertical-align: -0.15em;
-  background-color: currentColor;
-  mask: url("https://api.iconify.design/solar/folder-linear.svg") no-repeat center / contain;
-  -webkit-mask: url("https://api.iconify.design/solar/folder-linear.svg") no-repeat center / contain;
+  background-image: url("/assets/folder-linear.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
