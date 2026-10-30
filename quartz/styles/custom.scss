@@ -1,4 +1,5 @@
 @use "./variables.scss" as *;
+@use "sass:map";
 
 // put your custom CSS here!
 
@@ -64,4 +65,20 @@ $icons: (
 .explorer .folder-title::before {
   @include icon("folder");
   margin-right: 0.4em;
+}
+// garden colors for light mode
+html[saved-theme="light"],
+html[data-theme="light"],
+html.theme-light,
+html[saved-theme="light"] body,
+html[data-theme="light"] body {
+  --light: #f2f5f3 !important;
+  --lightgray: #cbdcdd !important;
+  --gray: #96a9a3 !important;
+  --darkgray: #44524c !important;
+  --dark: #2c3833 !important;
+  --secondary: #4f7d5b !important;
+  --tertiary: #91b79a !important;
+  --highlight: rgba(145, 183, 154, 0.18) !important;
+  --textHighlight: #cbdcdd99 !important;
 }
