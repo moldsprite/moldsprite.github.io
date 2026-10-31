@@ -1,0 +1,6 @@
+{
+    "files.autoSave": "onFocusChange",
+    "workbench.editor.autoLockGroups": {
+        "mainThreadWebview-markdown.preview": true
+    }
+}
